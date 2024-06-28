@@ -1,0 +1,23 @@
+name = "my-app"
+compatibility_date = "2023-12-01"
+
+[vars]
+DATABASE_URL = "your-link-here"
+
+# Uncomment and customize if using additional Cloudflare Workers features like KV namespaces, buckets, or databases
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# Uncomment and customize if using additional bindings for other services
+# [ai]
+# binding = "AI"
